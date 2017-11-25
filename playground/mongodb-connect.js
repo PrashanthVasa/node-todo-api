@@ -7,7 +7,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err,db)=>{
     }
     console.log("Connected to MongoDB server");
     db.collection('Users').insertOne({
-        name : 'Prashanth Vasa',
+        name : 'Prashanth',
         age : 21,
         location : 'Banglore'
     },(err,result)=>{
